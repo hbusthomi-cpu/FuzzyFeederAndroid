@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/inputTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temperature"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/inputOxygen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dissolved Oxygen"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Feeding" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Feeding: -"
+        android:textSize="20sp" />
+
+</LinearLayout>
